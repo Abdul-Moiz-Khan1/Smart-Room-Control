@@ -7,6 +7,10 @@ android {
     namespace = "com.example.smartcarfin"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.smartcarfin"
         minSdk = 24
