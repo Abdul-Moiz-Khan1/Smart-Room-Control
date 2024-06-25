@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
 //            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
 //            insets
-
+//chks
             binding.switch1.setOnCheckedChangeListener { compoundButton, checked ->
                 if(checked){
                     binding.layout1.setBackgroundColor(Color.RED)
@@ -31,4 +31,3 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-}
